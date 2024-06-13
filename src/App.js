@@ -4,11 +4,11 @@ import Todoapp from './Components/Todoapp';
 
 function App() {
   return (
-    <>
-    <h1>Small Projects on Reactjs</h1>
+    <div className=" bg-lime-100 min-h-screen">
+    <h1 className='font-bold text-3xl flex justify-center py-5'>Small Projects on Reactjs</h1>
     <Counter/>
     <Todoapp/>
-    </>
+    </div>
     
   );
 }
