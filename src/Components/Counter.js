@@ -6,7 +6,7 @@ const[count, setCount] = useState(0);
 
     return(
 <>
-<h2>Counter App</h2>
+<h2 classname="text-sm">Counter App</h2>
 <button onClick={() => {
     setCount(count + 1)
 }}>Increament</button>
